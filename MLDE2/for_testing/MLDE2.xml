@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MLDE2</name>
+    </assembly>
+    <members>
+        <member name="T:MLDE2.CDE2">
+            <summary>
+            The CDE2 class provides a CLS compliant, MWArray interface to the MATLAB functions
+            contained in the files:
+            <newpara></newpara>
+            D:\TW\MATLAB drive\Eindopdracht_SC\DE.m
+            </summary>
+            <remarks>
+            @Version 1.0
+            </remarks>
+        </member>
+        <member name="M:MLDE2.CDE2.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:MLDE2.CDE2.#ctor">
+            <summary>
+            Constructs a new instance of the CDE2 class.
+            </summary>
+        </member>
+        <member name="M:MLDE2.CDE2.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:MLDE2.CDE2.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:MLDE2.CDE2.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:MLDE2.CDE2.DE">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="metaal">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 4-input MWArrayinterface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 5-input MWArrayinterface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <param name="T2">Input argument #5</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 6-input MWArrayinterface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <param name="T2">Input argument #5</param>
+             <param name="profiel">Input argument #6</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 7-input MWArrayinterface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <param name="T2">Input argument #5</param>
+             <param name="profiel">Input argument #6</param>
+             <param name="n">Input argument #7</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 8-input MWArrayinterface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <param name="T2">Input argument #5</param>
+             <param name="profiel">Input argument #6</param>
+             <param name="n">Input argument #7</param>
+             <param name="m">Input argument #8</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 9-input MWArrayinterface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <param name="T2">Input argument #5</param>
+             <param name="profiel">Input argument #6</param>
+             <param name="n">Input argument #7</param>
+             <param name="m">Input argument #8</param>
+             <param name="prof_constant">Input argument #9</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="metaal">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 5-input MWArray interface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <param name="T2">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 6-input MWArray interface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <param name="T2">Input argument #5</param>
+             <param name="profiel">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 7-input MWArray interface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <param name="T2">Input argument #5</param>
+             <param name="profiel">Input argument #6</param>
+             <param name="n">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 8-input MWArray interface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <param name="T2">Input argument #5</param>
+             <param name="profiel">Input argument #6</param>
+             <param name="n">Input argument #7</param>
+             <param name="m">Input argument #8</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 9-input MWArray interface to the DE MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="metaal">Input argument #1</param>
+             <param name="L1">Input argument #2</param>
+             <param name="L2">Input argument #3</param>
+             <param name="T1">Input argument #4</param>
+             <param name="T2">Input argument #5</param>
+             <param name="profiel">Input argument #6</param>
+             <param name="n">Input argument #7</param>
+             <param name="m">Input argument #8</param>
+             <param name="prof_constant">Input argument #9</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.DE(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the DE function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Parameters
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:MLDE2.CDE2.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>
