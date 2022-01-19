@@ -1,4 +1,4 @@
-﻿using MLDE2Native;
+﻿using MLDE3Native;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace Eindopdracht
 {
@@ -22,15 +23,15 @@ namespace Eindopdracht
         public double intervaly;
         public double tempstart;
         public double tempend;
-        private CDE2 _DE;
+        private CDE3 _DE;
 
-        private CDE2 dE
+        private CDE3 dE
         {
             get
             {
                 if (_DE == null)
                 {
-                    _DE = new CDE2();
+                    _DE = new CDE3();
                 }
                 return _DE;
             }
@@ -61,9 +62,7 @@ namespace Eindopdracht
 
         private void UpdateCDE(List<double> inp)
         {
-            chart1.Series.Add();
             //bool cond = (Check_Input(inp))? true: false;
-            //Console.WriteLine(cond);
             double me = 0;
             double l1 = 10;
             double l2 = 10;
@@ -75,16 +74,10 @@ namespace Eindopdracht
             double con = 1;
             object w = dE.DE(me,l1,l2,t1,t2,prof,n,m,con);
             double[,] result = (double[,])w;
-            for (int row = 0; row < result.GetLength(0); row++)
-            {
-                StringBuilder sb = new StringBuilder();
-                for (int col = 0; col < result.GetLength(1); col++)
-                {
-                    sb.Append(result[row, col].ToString() + ", ");
-                    tableLayoutPanel1[1, 1] = result[1, 1];
-                }
-                textBox1.Text += sb.ToString() + System.Environment.NewLine;
-            }
+            int rowNum = 1;
+            int colNum = 1;
+            //Enumerable.Range(0, result.GetLength(1)).Select(x => result[rowNum, x]).ToArray(); //All from row
+            //Enumerable.Range(0, result.GetLength(1)).Select(x => result[x, colNum]).ToArray(); //All from col
         }
 
 

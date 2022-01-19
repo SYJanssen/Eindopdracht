@@ -53,8 +53,8 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MLDE2Native">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files\MLDE2\application\MLDE2Native.dll</HintPath>
+    <Reference Include="MLDE3Native">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\MLDE3\for_redistribution_files_only\MLDE3Native.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
